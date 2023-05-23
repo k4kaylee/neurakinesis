@@ -24,6 +24,10 @@ html, body { }
 	user-select: none;
   }
 
+.hidden{
+	display: none;
+}
+
 a[href^="tel:"] {
 	color: inherit;
 	text-decoration:none;
@@ -374,7 +378,7 @@ img{ margin-bottom: 0px;max-width:100%; height:auto;}
 
 .top img{
 	float:right; 
-	min-height: 290px; 
+	min-height: 270px; 
 	max-width: 1034; 
 	max-height: 578px;
 }
@@ -401,9 +405,17 @@ img{ margin-bottom: 0px;max-width:100%; height:auto;}
 	margin: 0 20px;
   }
 
+  .about_txt_below {
+	text-align: center;
+	border-radius: 50px;
+	background: #ffffff;
+	box-shadow:  20px 20px 40px #bebebe,
+                -20px -20px 40px #f7f7f7;
+	padding: 40px;
+  }
+
   .about_txt p{
 	text-align: center; 
-	margin-top: 10px;
   }
 
 .img2{
@@ -1001,11 +1013,34 @@ p a:hover{color: #2bdaf4;}
 	.slider_wrapper .more_btn {margin-top: 94px;}
 
 
+	.about_txt p{
+		padding-top: 0px;
+	}
+
 	.advantage{
 		padding: 0 20px;
 		text-align: justify;
 	}
 
+	.about{
+		margin: 0px;
+	}
+
+	.about_img{
+		display: none;
+	}
+
+	.hidden{
+		display: block;
+	}
+
+	.about_img{
+		margin-left:0px;
+	}
+	
+	.our_team_wrapper{
+		margin-left: 0px;
+	}
 }
 
 
@@ -1015,6 +1050,7 @@ p a:hover{color: #2bdaf4;}
 		max-width: 560px;
 		max-height: 560px;
 	  }
+
 
 }
 @media only screen and (max-width: 320px) {
