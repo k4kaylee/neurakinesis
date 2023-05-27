@@ -391,8 +391,13 @@ a.link5{color: #2fc6dc; font-size: 110%;}
 .advantage_img{
 	max-width: 70px;
 	max-height: 70px;
+}
+
+.advantage_img img{
 	min-width: 40px;
 }
+
+
 
 /* ============================= end lists ====================== */
 
