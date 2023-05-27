@@ -8,7 +8,7 @@ nav{
 	float: right;
 	min-height: 37px;
 }
-.sf-menu{display:block;}
+.sf-menu{display:block;  list-style: none;}
 .sf-menu ul {position:absolute; top:-999px; display:none; z-index:999;}
 .sf-menu a {display:block;}
 .sf-menu li:hover ul,.sf-menu li.sfHover ul {z-index:999;}
